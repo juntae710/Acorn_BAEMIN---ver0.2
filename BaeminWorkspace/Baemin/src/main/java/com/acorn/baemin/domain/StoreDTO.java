@@ -1,5 +1,7 @@
 package com.acorn.baemin.domain;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,21 +11,24 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class StoreDTO {
 
-	int storeCode;
-	int sellerCode;
-	String storeName;
-	String storeCategory;
-	String storeImage;
-	String storeAddress;
-	String storePhone;
+
+	Integer storeCode;
+	Integer sellerCode;
+	String storeName;//
+	String storeCategory;//
+	String storeImage;//
+	String storeAddress;//
+	String storePhone;//
 	int zzimCount;
 	int reviewCount;
 	double storeRating;
 	String storeDescription;
-	int minOrderPrice;
-	int deliveryFee;
+	int minOrderPrice;//
+	int deliveryFee;//
 	String operatingTime;
-	String deliveryArea;
+	String deliveryArea;//
 	int storeStatus;
 	
+	
 }
+	

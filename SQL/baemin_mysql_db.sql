@@ -123,13 +123,12 @@ create table option_tbl (
     optionPrice int, 
     optionStatus tinyint
 )auto_increment = 50001;
-
+select * from option_tbl;
 INSERT INTO option_tbl (menuCode, optionCategory, optionSelectType, optionName, optionPrice, optionStatus) VALUES
-(40001, 'Size', 1, 'Small', 1000, 0),
-(40001, 'Size', 1, 'Medium', 2000, 0),
-(40001, 'Size', 1, 'Large', 3000, 0),
-(40002, 'Sushi Type', 1, 'Nigiri', 1000, 0),
-(40002, 'Sushi Type', 1, 'Sashimi', 2000, 0);
+(40001, '음료', 1, '사이다', 3000, 0),
+(40001, '음료', 1, '콜라', 3000, 0),
+(40001, 'drink', 1, '환타', 3000, 0);
+
 
 
 
